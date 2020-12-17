@@ -6,4 +6,4 @@ function clickHandler(){
   console.log("Input : " + txtInput.value)
 };
 
-btnTranslate.addEventListener("click" , clickHandler());
+btnTranslate.addEventListener("click" , clickHandler);
