@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #EFF6FF;
+  --width-break: 600px;
+}
+
+body {
+  margin: 0;
+  font-family: "MedievalSharp", cursive;
+  background-color: var(--secondary-color);
+}
+
+nav {
+  color: var(--secondary-color);
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+img {
+  max-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+  background-color: var(--secondary-color);
+}
+
+button {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  font-family: "MedievalSharp", cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+}
